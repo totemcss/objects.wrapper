@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #WRAPPER
+\*------------------------------------*/
+
+$wrapper-width:     1200px !default;
+$wrapper-gutter:    $inuit-base-spacing-unit !default;
+
+
+
+
+
+.o-wrapper {
+    max-width: $wrapper-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $wrapper-gutter;
+    padding-right: $wrapper-gutter;
+}
