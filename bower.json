@@ -1,0 +1,13 @@
+{
+  "name": "totem-wrapper",
+  "version": "0.1.0",
+  "authors": "Florian Bouvot",
+  "main": "_objects.wrapper.scss",
+  "ignore": [
+    "test",
+    ".*"
+  ],
+  "dependencies": {
+    "inuit-defaults": "~0.2.3"
+  }
+}
