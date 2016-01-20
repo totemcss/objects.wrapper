@@ -1,0 +1,27 @@
+{
+  "name": "totem-wrappers",
+  "version": "0.2.0",
+  "description": "A wrappers abstraction class in the inuitcss framework",
+  "main": "_objects.wrappers.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totemcss/objects.wrappers.git"
+  },
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "author": "Florian Bouvot <florian.bouvot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totemcss/objects.wrappers/issues"
+  },
+  "homepage": "https://github.com/totemcss/objects.wrappers#readme",
+  "dependencies": {
+    "inuit-defaults": "~0.2.x"
+  }
+}
