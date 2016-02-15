@@ -1,15 +1,9 @@
 /*------------------------------------*\
-    #WRAPPERS
+    #WRAPPER
 \*------------------------------------*/
 
-// Predefine the variables below in order to alter and enable specific features.
-$wrapper-width:         62.5em !default;
-$wrapper-width--small:  50em !default;
-$wrapper-width--large:  75em !default;
-$wrapper-gutter:        $inuit-base-spacing-unit !default;
-
-$enable-wrapper--small:    false !default;
-$enable-wrapper--large:    false !default;
+$wrapper-width:     62.5em !default;
+$wrapper-gutter:    $inuit-base-spacing-unit !default;
 
 
 
@@ -24,36 +18,4 @@ $enable-wrapper--large:    false !default;
     margin-right: auto;
     padding-left: $wrapper-gutter;
     padding-right: $wrapper-gutter;
-}
-
-
-
-
-
-@if ($enable-wrapper--small == true) {
-
-    /**
-     * Wrapper with small width
-     */
-
-    .o-wrapper--small {
-        max-width: $wrapper-width--small;
-    }
-
-}
-
-
-
-
-
-@if ($enable-wrapper--large == true) {
-
-    /**
-     * Wrapper with large width
-     */
-
-    .o-wrapper--large {
-        max-width: $wrapper-width--large;
-    }
-
 }
