@@ -1,6 +1,6 @@
 {
   "name": "totem-wrapper",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A wrappers abstraction class in the inuitcss framework",
   "main": "_objects.wrappers.scss",
   "scripts": {
